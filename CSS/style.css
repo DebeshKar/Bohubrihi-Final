@@ -18,7 +18,10 @@ body{
     background-color: black;
 }
 .navbar-container{
+    top: 0;
     background-color: blueviolet;
+    position: sticky;
+    z-index: 2;
 }
 .about-container{
     background-color: aquamarine;
@@ -29,6 +32,46 @@ body{
 .bg-redtype{
     background-color: palegoldenrod;
 }
+.bg-redtype :hover{
+    color: white!important;
+}
 .redtype-color{
     color: palegreen;
+}
+.circle-edu{
+    background-color: burlywood;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.ProfessionalLife-container{
+    background-color: blue;
+}
+.form-container{
+    background-color:coral;
+}
+.inner-form{
+    background-color: lightcoral;
+}
+.sb-container{
+    background-color: teal;
+}
+.footer{
+    background-color: darkorchid;
+}
+.circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color:white;
+    font-size: 40px;
+    text-align: center;
+    color:blue;
+}
+.circle :hover{
+    
+    background-color:cornflowerblue;
+    
+    
 }
