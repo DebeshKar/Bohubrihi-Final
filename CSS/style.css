@@ -23,3 +23,12 @@ body{
 .about-container{
     background-color: aquamarine;
 }
+.education-container{
+    background-color: palevioletred;
+}
+.bg-redtype{
+    background-color: palegoldenrod;
+}
+.redtype-color{
+    color: palegreen;
+}
